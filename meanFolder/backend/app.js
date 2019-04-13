@@ -1,4 +1,3 @@
-// const path = require("path");
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
@@ -17,9 +16,7 @@ mongoose.connect(mongodb, {useNewUrlParser: true}).then(() => {
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use("/images", express.static(getImage)); //made this up !!!!!
-
-//app.use(express.static(path.join(__dirname, '../meanApp/dist/meanApp'))); this is to get it working on localhost3000!!!!!!!
+app.use("/images", express.static(getImage)); 
 
 
 app.use((req, res, next) => {
