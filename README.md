@@ -1,4 +1,4 @@
-meanApp
+
 MEAN stack CRUD App with pagination which allows you to:
 
 post data and images from the browser into MongoDB and a backend images folder
