@@ -13,4 +13,6 @@ open meanFolder
 
 'ng serve' from '/meanFolder/meanApp' folder 
 
-'node server' from '/meanFolder/backend' folder Open in browser at 'http://localhost:4200'
+'node server' from '/meanFolder/backend' folder 
+
+Open in browser at 'http://localhost:4200'
